@@ -1,0 +1,16 @@
+{
+  "name": "qa-vault",
+  "interface": {
+    "displayName": "qa-vault"
+  },
+  "plugins": [
+    {
+      "name": "codelore",
+      "source": {
+        "source": "url",
+        "url": "qa-vault/codelore"
+      },
+      "category": "development"
+    }
+  ]
+}

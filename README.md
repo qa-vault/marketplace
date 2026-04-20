@@ -1,10 +1,8 @@
 # qa-vault marketplace
 
-A catalog of **Claude Code** plugins published by `qa-vault`.
+A catalog of plugins published by `qa-vault`, installable in both **Claude Code** and **Codex CLI**.
 
-This repo doesn't contain plugin code itself — it's a **marketplace manifest** that tells Claude Code where to find plugins hosted in separate repos under the `qa-vault` organization. Add this marketplace once and you'll have access to every current and future `qa-vault` plugin from a single place.
-
-> **Codex users:** This catalog is Claude-Code-only. Codex's marketplace format doesn't support listing plugins from external repos, so each `qa-vault` plugin must be added to Codex separately via `codex marketplace add qa-vault/<plugin-name>`. See the plugin repos below for Codex install instructions.
+This repo doesn't contain plugin code itself — it's a **marketplace manifest** that tells each tool where to find plugins hosted in separate repos under the `qa-vault` organization. Add this marketplace once and you'll have access to every current and future `qa-vault` plugin from a single place.
 
 ---
 
@@ -16,7 +14,9 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 
 ---
 
-## Install (Claude Code)
+## Install
+
+### Claude Code
 
 1. **Add the marketplace** (one-time):
 
@@ -43,17 +43,29 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 
 **Updates:** Claude Code auto-refreshes this marketplace on startup and pulls updates to installed plugins. No action needed.
 
----
+### Codex CLI
 
-## Install (Codex CLI)
+1. **Add the marketplace** (one-time):
 
-For Codex, go to each plugin's own repo and follow its install instructions. Codex requires adding each plugin repo individually as its own marketplace:
+   ```
+   codex marketplace add qa-vault/marketplace
+   ```
+
+2. **Install a plugin**:
+
+   ```
+   /plugins install codelore
+   ```
+
+   (Run inside Codex. You can also browse with `/plugins`.)
+
+**Updates:** refresh manually when needed:
 
 ```
-codex marketplace add qa-vault/codelore
+codex marketplace update qa-vault
 ```
 
-Start here: [qa-vault/codelore](https://github.com/qa-vault/codelore).
+(Codex's auto-update behavior on launch isn't documented as of April 2026 — manual refresh is the reliable path.)
 
 ---
 
