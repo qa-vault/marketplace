@@ -45,6 +45,8 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 
 ### Codex CLI
 
+> **Requires Codex CLI 0.122+.** Stable 0.121.x accepts only `local` plugin sources in marketplaces, which blocks polyrepo catalogs like this one. The `url` source variant used here lands in 0.122 (currently pre-release). If you're on 0.121.x, either wait for 0.122 stable or install the pre-release (`npm install -g @openai/codex@next`).
+
 1. **Add the marketplace** (one-time):
 
    ```
