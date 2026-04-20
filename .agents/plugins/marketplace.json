@@ -1,0 +1,15 @@
+{
+  "name": "qa-vault",
+  "description": "Codex CLI plugins from qa-vault.",
+  "plugins": [
+    {
+      "source": {
+        "source": "github",
+        "repo": "qa-vault/codelore"
+      },
+      "interface": {
+        "displayName": "codelore"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "qa-vault",
+  "owner": {
+    "name": "qa-vault",
+    "url": "https://github.com/qa-vault"
+  },
+  "metadata": {
+    "description": "Claude Code plugins from qa-vault.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "codelore",
+      "source": {
+        "source": "github",
+        "repo": "qa-vault/codelore"
+      },
+      "description": "Skills for critically exploring and documenting code.",
+      "category": "development",
+      "tags": ["qa", "documentation", "code-review"]
+    }
+  ]
+}
