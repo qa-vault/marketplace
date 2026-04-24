@@ -45,26 +45,28 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 
 ### Codex CLI
 
-> **Requires Codex CLI 0.122+.** Stable 0.121.x accepts only `local` plugin sources in marketplaces, which blocks polyrepo catalogs like this one. The `url` source variant used here lands in 0.122 (currently pre-release). If you're on 0.121.x, either wait for 0.122 stable or install the pre-release (`npm install -g @openai/codex@next`).
+> **Requires Codex CLI 0.122+.** The `url` source variant used here shipped in stable 0.122 (2026-04-20). Earlier 0.121.x releases accept only `local` plugin sources and cannot install polyrepo catalogs like this one — upgrade to 0.122 or later.
 
 1. **Add the marketplace** (one-time):
 
    ```
-   codex marketplace add qa-vault/marketplace
+   codex plugin marketplace add qa-vault/marketplace
    ```
 
 2. **Install a plugin**:
 
+   Inside Codex, open the plugin browser:
+
    ```
-   /plugins install codelore
+   /plugins
    ```
 
-   (Run inside Codex. You can also browse with `/plugins`.)
+   Find the plugin (e.g. `codelore`) under the `qa-vault` marketplace and toggle it on to install. (`/plugins` is an interactive browser — it does not accept inline arguments.)
 
 **Updates:** refresh manually when needed:
 
 ```
-codex marketplace update qa-vault
+codex plugin marketplace upgrade qa-vault
 ```
 
 (Codex's auto-update behavior on launch isn't documented as of April 2026 — manual refresh is the reliable path.)
