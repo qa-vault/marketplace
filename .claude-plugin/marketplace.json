@@ -15,9 +15,9 @@
         "source": "github",
         "repo": "qa-vault/codelore"
       },
-      "description": "Skills for critically exploring and documenting code.",
+      "description": "Project docs as an auto-loaded context layer for AI sessions. Four skills: write, bulk-migrate, route into context, and critically review.",
       "category": "development",
-      "tags": ["qa", "documentation", "code-review"]
+      "tags": ["qa", "documentation", "code-review", "discovery"]
     }
   ]
 }

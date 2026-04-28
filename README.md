@@ -10,7 +10,7 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 
 | Plugin | Description | Repo |
 |---|---|---|
-| **codelore** | Skills for critically exploring and documenting code. | [qa-vault/codelore](https://github.com/qa-vault/codelore) |
+| **codelore** | Project documentation as an auto-loaded context layer for AI sessions. Four skills: write docs with frontmatter, bulk-migrate pre-existing docs, route relevant docs into the agent's context on planning/debug/onboarding, and skeptically review code or plans against the loaded docs. | [qa-vault/codelore](https://github.com/qa-vault/codelore) |
 
 ---
 
