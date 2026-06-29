@@ -18,6 +18,16 @@
       "description": "Project docs as an auto-loaded context layer for AI sessions. Four skills: write, bulk-migrate, route into context, and critically review.",
       "category": "development",
       "tags": ["qa", "documentation", "code-review", "discovery"]
+    },
+    {
+      "name": "qa-vault-skills",
+      "source": {
+        "source": "github",
+        "repo": "qa-vault/qa-vault-skills"
+      },
+      "description": "Four skills that make an AI agent a QA practitioner for the QA Vault platform: author manual UI test scenarios, maintain them as the product changes, search the repository, and organize suites and tags.",
+      "category": "development",
+      "tags": ["qa", "test-management", "mcp", "qa-vault"]
     }
   ]
 }
