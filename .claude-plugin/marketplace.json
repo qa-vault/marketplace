@@ -25,9 +25,9 @@
         "source": "github",
         "repo": "qa-vault/qa-vault-skills"
       },
-      "description": "Four skills that make an AI agent a QA practitioner for the QA Vault platform: author manual UI test scenarios, maintain them as the product changes, search the repository, and organize suites and tags.",
+      "description": "Eight skills that make an AI agent a QA practitioner for the QA Vault platform: author, maintain, search, and organize manual UI test scenarios, and turn them into automated Playwright e2e tests — generate, heal, run, and report, closed-loop through the QA Vault MCP.",
       "category": "development",
-      "tags": ["qa", "test-management", "mcp", "qa-vault"]
+      "tags": ["qa", "test-management", "mcp", "qa-vault", "playwright", "test-automation"]
     }
   ]
 }
