@@ -11,6 +11,7 @@ This repo doesn't contain plugin code itself — it's a **marketplace manifest**
 | Plugin | Description | Repo |
 |---|---|---|
 | **codelore** | Project documentation as an auto-loaded context layer for AI sessions. Four skills: write docs with frontmatter, bulk-migrate pre-existing docs, route relevant docs into the agent's context on planning/debug/onboarding, and skeptically review code or plans against the loaded docs. | [qa-vault/codelore](https://github.com/qa-vault/codelore) |
+| **qa-vault-skills** | Eight skills that make an AI agent a QA practitioner for the QA Vault platform: author, maintain, search, and organize manual UI test scenarios, and turn them into automated Playwright e2e tests — generate, heal, run, and report, closed-loop through the QA Vault MCP. | [qa-vault/qa-vault-skills](https://github.com/qa-vault/qa-vault-skills) |
 
 ---
 

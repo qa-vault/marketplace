@@ -11,6 +11,14 @@
         "url": "qa-vault/codelore"
       },
       "category": "development"
+    },
+    {
+      "name": "qa-vault-skills",
+      "source": {
+        "source": "url",
+        "url": "qa-vault/qa-vault-skills"
+      },
+      "category": "development"
     }
   ]
 }
