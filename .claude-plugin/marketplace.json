@@ -28,6 +28,16 @@
       "description": "Skills that make an AI agent a QA practitioner for the QA Vault platform: author, maintain, search, and organize manual UI test scenarios — including the search abstracts that power two-vector semantic search — and turn them into automated Playwright e2e tests: generate, heal, run, and report, closed-loop through the QA Vault MCP.",
       "category": "development",
       "tags": ["qa", "test-management", "mcp", "qa-vault", "playwright", "test-automation"]
+    },
+    {
+      "name": "quality-loop",
+      "source": {
+        "source": "github",
+        "repo": "qa-vault/quality-loop"
+      },
+      "description": "A two-layer quality loop for AI-generated code: a deterministic pre-PR Semgrep gate with project-owned rules, critical triage of Greptile AI reviews, and a human-approved ratchet that turns recurring findings into rules. Bring your own Semgrep install and Greptile account.",
+      "category": "development",
+      "tags": ["qa", "code-quality", "code-review", "quality-gate", "semgrep", "greptile"]
     }
   ]
 }

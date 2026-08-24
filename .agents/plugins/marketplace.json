@@ -19,6 +19,14 @@
         "url": "qa-vault/qa-vault-skills"
       },
       "category": "development"
+    },
+    {
+      "name": "quality-loop",
+      "source": {
+        "source": "url",
+        "url": "qa-vault/quality-loop"
+      },
+      "category": "development"
     }
   ]
 }
