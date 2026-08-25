@@ -47,7 +47,7 @@
         "source": "github",
         "repo": "qa-vault/quality-loop"
       },
-      "description": "A two-layer quality loop for AI-generated code: a deterministic pre-PR Semgrep gate with project-owned rules, critical triage of Greptile AI reviews, and a human-approved ratchet that turns recurring findings into rules — plus a contract-driven unit-testing discipline verified by mutation testing. Bring your own Semgrep install and Greptile account.",
+      "description": "A three-layer quality loop for AI-generated code: a contract-driven unit-testing discipline verified by mutation testing, a deterministic pre-PR Semgrep gate with project-owned rules, and critical triage of Greptile AI reviews — closed by a human-approved ratchet that turns recurring findings into rules. Bring your own Semgrep install and Greptile account.",
       "category": "development",
       "tags": [
         "qa",
