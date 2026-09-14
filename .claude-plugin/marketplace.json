@@ -5,8 +5,8 @@
     "url": "https://github.com/qa-vault"
   },
   "metadata": {
-    "description": "Claude Code plugins from qa-vault.",
-    "version": "0.1.0"
+    "description": "Plugins that surround QA Vault, an MCP-native test-management platform: QA practice and e2e automation through the QA Vault MCP, a quality loop for AI-assisted development, and project docs as an auto-loaded context layer. Installable in Claude Code and Codex CLI.",
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -15,12 +15,11 @@
         "source": "github",
         "repo": "qa-vault/codelore"
       },
-      "description": "Project docs as an auto-loaded context layer for AI sessions. Four skills: write, bulk-migrate, route into context, and critically review.",
+      "description": "Project documentation as an auto-loaded context layer for AI sessions. Three skills: write implementation docs, bulk-migrate existing ones, and route the relevant docs into context before planning, debugging, or onboarding.",
       "category": "development",
       "tags": [
         "qa",
         "documentation",
-        "code-review",
         "discovery"
       ]
     },
@@ -47,7 +46,7 @@
         "source": "github",
         "repo": "qa-vault/quality-loop"
       },
-      "description": "A three-layer quality loop for AI-generated code: a contract-driven testing discipline for unit and integration suites (verified by mutation testing and provoked real-infrastructure failures), a deterministic pre-PR Semgrep gate with project-owned rules, and critical triage of Greptile AI reviews — closed by a human-approved ratchet that turns recurring findings into rules. Bring your own Semgrep install and Greptile account.",
+      "description": "A quality loop for AI-generated code: skeptical exploratory QA of plans and code, a contract-driven testing discipline for unit and integration suites (verified by mutation testing and provoked real-infrastructure failures), a deterministic pre-PR Semgrep gate with project-owned rules, and critical triage of Greptile AI reviews — closed by a human-approved ratchet that turns recurring findings into rules. Bring your own Semgrep install and Greptile account.",
       "category": "development",
       "tags": [
         "qa",
@@ -57,7 +56,8 @@
         "semgrep",
         "greptile",
         "unit-testing",
-        "integration-testing"
+        "integration-testing",
+        "exploratory-qa"
       ]
     }
   ]
